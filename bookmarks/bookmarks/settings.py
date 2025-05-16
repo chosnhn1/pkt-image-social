@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-  
     'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -130,3 +129,7 @@ LOGOUT_URL = 'logout'
 
 # Email Settings
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Media files
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
