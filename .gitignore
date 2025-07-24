@@ -179,3 +179,7 @@ cython_debug/
 # Others
 bookmarks/cert.crt
 bookmarks/cert.key
+
+# Vim files
+docs/*.un~
+docs/*.md~
