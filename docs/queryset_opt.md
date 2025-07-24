@@ -6,7 +6,9 @@
 
 Django ORM의 동시조회 기능 사용하기 (SQL Join 수행)
 
-* `model.selected_related()`
+* `model.selected_related()`\
+  * used in 1:M rel
 * `model.prefetch_related()`
+  * used in M:N, M:1 rel
 
 적용례: [dashboard view](../bookmarks/account/views.py)
