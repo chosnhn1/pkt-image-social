@@ -24,4 +24,5 @@ urlpatterns = [
     path('account/', include('account.urls')),
     path('images/', include('images.urls', namespace='images')),
     path('social-auth', include('social_django.urls', namespace='social')),
+    path('__debug__/', include('debug_toolbar.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)   # static part is not viable in deployment
