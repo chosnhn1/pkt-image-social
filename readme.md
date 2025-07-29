@@ -15,6 +15,7 @@
   * [account](/bookmarks/account/): app for account, auth
   * [bookmarks](/bookmarks/bookmarks/): project settings
   * [images](/bookmarks/images/): app for image upload and social interactions (main business logic)  
+  * [actions](/bookmarks/actions/): app for making user stream, powered by Redis (running docker container needed)
 * [venv](/venv/): Python Virtual Environment
   * Powershell `.\venv\Script\activate`
   * Bash: load with `source venv/Script/activate`
@@ -23,3 +24,4 @@
 * [requirements.txt](/requirements.txt): Python dependency
   * load with `pip install -r requirements.txt`
   * write with `pip freeze > requirements.txt`
+  
